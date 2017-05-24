@@ -12,25 +12,13 @@
 
 (function() {
     'use strict';
-    setTimeout(function(){
-        document.getElementsByClassName("GND1IDUBD GND1IDUBO GND1IDUBK GND1IDUBNK")[0].click();
-        }, 2000);
-    setTimeout(function(){
-        document.getElementsByClassName("GND1IDUBD GND1IDUBO GND1IDUBK GND1IDUBNK")[0].click();
-    }, 2500);
-    setTimeout(function(){
-        document.getElementsByClassName("GND1IDUBD GND1IDUBO GND1IDUBK GND1IDUBNK")[0].click();
-    }, 3000);
-    setTimeout(function(){
-        document.getElementsByClassName("GND1IDUBD GND1IDUBO GND1IDUBK GND1IDUBNK")[0].click();
-    }, 3500);
-    setTimeout(function(){
-        document.getElementsByClassName("GND1IDUBD GND1IDUBO GND1IDUBK GND1IDUBNK")[0].click();
-    }, 4000);
-    setTimeout(function(){
-        document.getElementsByClassName("GND1IDUBD GND1IDUBO GND1IDUBK GND1IDUBNK")[0].click();
-    }, 4400);
-    setTimeout(function(){
-        document.getElementsByClassName("GND1IDUBD GND1IDUBO GND1IDUBK GND1IDUBNK")[0].click();
-    }, 4600);
+    function click_me(){
+        var element = document.getElementsByClassName("GND1IDUBD GND1IDUBO GND1IDUBK GND1IDUBNK")[0];
+        if (element.style.display === "") {
+             element.click();
+        }
+    }
+    for (i=1;i<12;i++){
+     setTimeout(click_me, i*1000);
+    }
 })();
