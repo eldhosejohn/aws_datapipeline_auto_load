@@ -30,4 +30,7 @@
     setTimeout(function(){
         document.getElementsByClassName("GND1IDUBD GND1IDUBO GND1IDUBK GND1IDUBNK")[0].click();
     }, 4400);
+    setTimeout(function(){
+        document.getElementsByClassName("GND1IDUBD GND1IDUBO GND1IDUBK GND1IDUBNK")[0].click();
+    }, 4600);
 })();
