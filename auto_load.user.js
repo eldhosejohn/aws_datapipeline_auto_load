@@ -4,7 +4,7 @@
 // @include https://console.aws.amazon.com/datapipeline/
 // @include https://console.aws.amazon.com/datapipeline/*
 // @version      1.0
-// @description  Removes the dark menubar from GitHub.
+// @description  Auto-load all datapipelines.
 // @author       eldhosejohn
 // @grant        none
 
