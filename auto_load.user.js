@@ -4,7 +4,7 @@
 // @include https://console.aws.amazon.com/datapipeline/
 // @include https://console.aws.amazon.com/datapipeline/*
 // @version      1.0
-// @description  Auto-load all datapipelines.
+// @description  Auto-load all datapipelines
 // @author       eldhosejohn
 // @grant        none
 
@@ -17,8 +17,15 @@
         if (element.style.display === "") {
              element.click();
         }
+        else{
+            var click_element = document.getElementsByClassName("GND1IDUBPK")[0];
+            click_element.addEventListener("click",start);
+        }
     }
-    for (i=1;i<12;i++){
-     setTimeout(click_me, i*1000);
+    function start(){
+        for (i=1;i<12;i++){
+            setTimeout(click_me, i*1000);
+        }
     }
+    start();
 })();
