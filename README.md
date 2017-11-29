@@ -1,6 +1,8 @@
-# Auto Load all AWS datapipeline
+# Auto Load AWS datapipeline
 
-## Steps
+Helps you to auto load datapipeline from console.aws.amazon.com/datapipeline/home?region=us-east-1
+
+### Steps
 1. Install TamperMonkey for chrome/firefox
 https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en
 http://tampermonkey.net/
